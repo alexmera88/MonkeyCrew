@@ -41,7 +41,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="..\..\..\..\ExternalDependencies\Cpp\Boost\1.47.0\include"
+				AdditionalIncludeDirectories="C:\Alignia_Develop_4.0\ExternalDependencies\Cpp\Boost\1.47.0\include"
 				PreprocessorDefinitions="WIN32;_DEBUG;_CONSOLE"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -115,7 +115,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="2"
 				EnableIntrinsicFunctions="true"
-				AdditionalIncludeDirectories="..\..\..\..\ExternalDependencies\Cpp\Boost\1.47.0\include"
+				AdditionalIncludeDirectories="C:\Alignia_Develop_4.0\ExternalDependencies\Cpp\Boost\1.47.0\include"
 				PreprocessorDefinitions="WIN32;NDEBUG;_CONSOLE"
 				RuntimeLibrary="2"
 				EnableFunctionLevelLinking="true"

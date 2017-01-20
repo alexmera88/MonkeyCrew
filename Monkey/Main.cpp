@@ -13,7 +13,7 @@
 #include "CActionQueue.h"
 
 const std::string TXT_COMMAND_HELP( "Usage: Monkey <Actions File Path> [-v] [-o <Output File Path>]\n\n"
-								    "\t<Actions File Path>\tPath to a file describing monkey actions.\n"
+								   "\t<Actions File Path> : tPath to a file describing monkey actions.\n"
 									"\t-v : Verbose action execution.\n"
 									"\t-o : Copy Output to file at <Output File Path>.\n"
 									"\t-r : Generate Replay command file at <Replay File Path>.\n"

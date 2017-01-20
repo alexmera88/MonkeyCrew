@@ -32,12 +32,12 @@ wchar_t loCase( const wchar_t C )
 
 bool isDigit( const char C )
 {
-	return isdigit( C );
+	return ( 0 != isdigit( C ) );
 }
 
 bool isDigit( const wchar_t C )
 {
-	return iswdigit( C );
+	return ( 0 != iswdigit( C ) );
 }
 
 bool strEquals( const char *vStr, const char *vValue )

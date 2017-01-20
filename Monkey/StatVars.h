@@ -53,19 +53,19 @@ public:
 
 	static float Pareto(float alpha)
 	{
-		return 1.0 / pow( U01(), (float) 1.0 / alpha );
+		return (float) 1.0 / pow( U01(), (float) 1.0 / alpha );
 	}
 
 
 	static float Normal(float mean, float stdev)
 	{
-		return mean + stdev * cos( 2 * M_PI * U01() ) * sqrt( -log( U01() ) );
+		return mean + stdev * cos( (float) 2.0 * (float) M_PI * U01() ) * sqrt( -log( U01() ) );
 	}
 
 
-	static int   Geometric(float p)
+	static float Geometric(float p)
 	{
-		return log( U01() ) / log( 1 - p ) - 1;
+		return log( U01() ) / log( (float) 1.0 - p ) - (float) 1.0;
 	}
 
 
@@ -94,7 +94,7 @@ public:
 			case SD_Constant	: return Constant( vParam1 );
 			case SD_Uniform		: return Uniform( vParam1 );
 			case SD_Exponential	: return Exponential( vParam1 );
-			case SD_Poisson		: return Poisson( vParam1 );
+			case SD_Poisson		: return (float) Poisson( vParam1 );
 			case SD_Pareto		: return Pareto( vParam1 );
 			case SD_Normal		: return Normal( vParam1, vParam2 );
 			case SD_Geometric	: return Geometric( vParam1 );
