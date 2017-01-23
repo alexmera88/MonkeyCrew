@@ -1,6 +1,6 @@
 # SimianArmy
 
-Based on the ideas by **Netfilx's SimianArmy** (https://github.com/Netfilx/SimianArmy), SimianArmy provides a set of simple tools to help you test the resiliency of your systems.
+Inspired by **Jeff Atwood**'s post [Working with the Chaos Monkey](https://blog.codinghorror.com/working-with-the-chaos-monkey/), and **Netfilx**'s [SimianArmy](https://github.com/Netfilx/SimianArmy), SimianArmy helps you test the resiliency of your systems.
 
 The army currently consists of these soldiers:
 
