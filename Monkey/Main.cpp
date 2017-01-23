@@ -12,11 +12,11 @@
 #include "CActionList.h"
 #include "CActionQueue.h"
 
-const std::string TXT_COMMAND_HELP( "Usage: Monkey <Actions File Path> [-v] [-o <Output File Path>]\n\n"
-								   "\t<Actions File Path> : tPath to a file describing monkey actions.\n"
+const std::string TXT_COMMAND_HELP( "Usage: Monkey <Actions> [-v] [-o <Output>] [-r <Replay>]\n\n"
+								   "\t<Actions> files : One or more paths to monkey action files.\n"
 									"\t-v : Verbose action execution.\n"
-									"\t-o : Copy Output to file at <Output File Path>.\n"
-									"\t-r : Generate Replay command file at <Replay File Path>.\n"
+									"\t-o : Copy Output to file at <Output> file path.\n"
+									"\t-r : Generate Replay command file at <Replay> file path.\n"
 									);
 
 const std::string TXT_CANNT_OPEN_FILE( "> Monkey can't play " );

@@ -1,2 +1,0 @@
-# SimianArmy
-Windows Testing Utilities
