@@ -4,12 +4,12 @@ Chimp is a random scheduler: It accepts system commands (specified through actio
 
 ## Command Syntax
     C:\> Chimp <Actions> [-v] [-o <Output>] [-r <Replay>]"
-		<Actions> files : One or more paths to chimp action files.
+		<Action> files : One or more paths to chimp action files.
 		-v : Verbose action execution.
 		-o : Copy Output to file at <Output> file path.
 		-r : Generate Replay command file at <Replay> file path.
 
-## Action File Format
+## Chimp Actions File Format
 Action files use a *.INI* syntax, where every *Section* specifies a different action. The next key values are available at every section:
 - **Perform**: Defines the system command to be performed.
 - **Revert**: Optinally defines the system command to perform if the action must be reverted.
