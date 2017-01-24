@@ -1,6 +1,6 @@
 # MonkeyCrew
 
-Inspired by **Jeff Atwood**'s post [Working with the Chaos Monkey](https://blog.codinghorror.com/working-with-the-chaos-monkey/), and **Netfilx**'s [SimianArmy](https://github.com/Netfilx/SimianArmy), MonkeyCrew helps you test the resiliency of your Windows(R) systems.
+Inspired by **Jeff Atwood**'s post [Working with the Chaos Monkey](https://blog.codinghorror.com/working-with-the-chaos-monkey/) and **Netfilx**'s [SimianArmy](https://github.com/Netfilx/SimianArmy), MonkeyCrew helps you test the resiliency of your Windows&reg; systems.
 
 MonkeyCrew is currently based of these tools:
 
