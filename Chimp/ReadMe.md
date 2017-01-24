@@ -1,4 +1,4 @@
-<p>
+<p align="right">
 <img src="https://raw.githubusercontent.com/alexmera88/MonkeyCrew/master/Chimp/Res/LogoSmall.png" alt="Chimp Logo" style="float:right;width:69px;height:62px;">
 </p>
 # Chimp
