@@ -1,4 +1,7 @@
-# ![Chimp Logo](https://raw.githubusercontent.com/alexmera88/MonkeyCrew/master/Chimp/Res/LogoSmall.png) Chimp
+<p align="right">
+<img src="https://raw.githubusercontent.com/alexmera88/MonkeyCrew/master/Chimp/Res/LogoSmall.png" alt="Chimp Logo">
+</p>
+# Chimp
 Chimp is a random scheduler: It accepts system commands (specified through action files), and it randomly executes those commands. Command execution can be logged as a Replay command file (**.BAT**), so it's easy to reproduce the executed scenarios at will.
 
 ## Command Syntax
