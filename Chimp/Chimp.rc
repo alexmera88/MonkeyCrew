@@ -54,7 +54,7 @@ END
 
 // Icon with lowest ID value placed first to ensure application icon
 // remains consistent on all systems.
-IDI_ICON1               ICON                    "Res\\Monkey.ico"
+IDI_ICON1               ICON                    "Res\\Chimp.ico"
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -78,14 +78,14 @@ BEGIN
     BEGIN
         BLOCK "040904b0"
         BEGIN
-            VALUE "Comments", "Random command scheduler"
-            VALUE "CompanyName", "Tango/04 Computing Group"
-            VALUE "FileDescription", "Chaos Monkey"
+            VALUE "Comments", "Random scheduler"
+            VALUE "CompanyName", ""
+            VALUE "FileDescription", "Chimp Monkey"
             VALUE "FileVersion", "1, 0, 0, 1"
-            VALUE "InternalName", "Monkey"
-            VALUE "LegalCopyright", "Copyright (C) 2016, Tango/04 Computing Group"
-            VALUE "OriginalFilename", "Monkey.exe"
-            VALUE "ProductName", "Simian Army"
+            VALUE "InternalName", "Chimp"
+            VALUE "LegalCopyright", "Copyright (C) 2016, Alex Mera"
+            VALUE "OriginalFilename", "Chimp.exe"
+            VALUE "ProductName", "MonkeyCrew"
             VALUE "ProductVersion", "1, 0, 0, 1"
         END
     END

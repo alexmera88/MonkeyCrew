@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chimp", "Chimp\Chimp.vcproj", "{440D540C-1A23-4E76-8CDA-5680FCE9558C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Wait", "Wait\Wait.vcproj", "{2C72F012-376F-49A2-8B24-3A924675CF36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{440D540C-1A23-4E76-8CDA-5680FCE9558C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{440D540C-1A23-4E76-8CDA-5680FCE9558C}.Debug|Win32.Build.0 = Debug|Win32
+		{440D540C-1A23-4E76-8CDA-5680FCE9558C}.Release|Win32.ActiveCfg = Release|Win32
+		{440D540C-1A23-4E76-8CDA-5680FCE9558C}.Release|Win32.Build.0 = Release|Win32
+		{2C72F012-376F-49A2-8B24-3A924675CF36}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2C72F012-376F-49A2-8B24-3A924675CF36}.Debug|Win32.Build.0 = Debug|Win32
+		{2C72F012-376F-49A2-8B24-3A924675CF36}.Release|Win32.ActiveCfg = Release|Win32
+		{2C72F012-376F-49A2-8B24-3A924675CF36}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

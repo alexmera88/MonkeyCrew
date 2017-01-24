@@ -79,13 +79,13 @@ BEGIN
         BLOCK "040904b0"
         BEGIN
             VALUE "Comments", "Pause execution"
-            VALUE "CompanyName", "Tango/04 Computing Group"
+            VALUE "CompanyName", ""
             VALUE "FileDescription", "Wait Command"
             VALUE "FileVersion", "1, 0, 0, 1"
             VALUE "InternalName", "Wait"
-            VALUE "LegalCopyright", "Copyright (C) 2016, Tango/04 Computing Group"
+            VALUE "LegalCopyright", "Copyright (C) 2016, Alex Mera"
             VALUE "OriginalFilename", "Wait.exe"
-            VALUE "ProductName", "Simian Army"
+            VALUE "ProductName", "MonkeyCrew"
             VALUE "ProductVersion", "1, 0, 0, 1"
         END
     END
