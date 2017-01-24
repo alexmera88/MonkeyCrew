@@ -19,9 +19,9 @@ const std::string TXT_COMMAND_HELP( "Usage: Chimp <Actions> [-v] [-o <Output>] [
 									"\t-r : Generate Replay command file at <Replay> file path.\n"
 									);
 
-const std::string TXT_CANNT_OPEN_FILE( "> Monkey can't play " );
-const std::string TXT_FILE_OPENED( "> Monkey plays " );
-const std::string TXT_PRESS_ESC_TO_END( "> Press <N> to play Now, <Esc> to let the monkey Escape.\n\n" );
+const std::string TXT_CANNT_OPEN_FILE( "> Chimp can't play " );
+const std::string TXT_FILE_OPENED( "> Chimp plays " );
+const std::string TXT_PRESS_ESC_TO_END( "> Press <N> to play Now, <Esc> to let the chimp Escape.\n\n" );
 
 const DWORD RESULT_OK( 0 );
 const DWORD RESULT_ERROR_SYSTEM( 100 );
