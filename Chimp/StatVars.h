@@ -102,6 +102,7 @@ public:
 			case SD_Erlang		: return Erlang( (int) vParam1, vParam2 );
 		}
 	}
+	
 	static TStatDist strToStatDist( const std::string &vValue ) 
 	{
 		#define CASE_DIST( NAME ) if ( !strcmp( vValue.c_str(), #NAME ) ) return SD_##NAME;
