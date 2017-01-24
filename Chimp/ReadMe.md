@@ -3,8 +3,8 @@
 Chimp is a random scheduler: It accepts system commands (specified through action files), and it randomly executes those commands. Command execution can be logged as a Replay command file (**.BAT**), so it's easy to reproduce the executed scenarios at will.
 
 ## Command Syntax
-    C:\> Monkey <Actions> [-v] [-o <Output>] [-r <Replay>]"
-		<Actions> files : One or more paths to monkey action files.
+    C:\> Chimp <Actions> [-v] [-o <Output>] [-r <Replay>]"
+		<Actions> files : One or more paths to chimp action files.
 		-v : Verbose action execution.
 		-o : Copy Output to file at <Output> file path.
 		-r : Generate Replay command file at <Replay> file path.

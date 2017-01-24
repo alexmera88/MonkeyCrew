@@ -12,8 +12,8 @@
 #include "CActionList.h"
 #include "CActionQueue.h"
 
-const std::string TXT_COMMAND_HELP( "Usage: Monkey <Actions> [-v] [-o <Output>] [-r <Replay>]\n\n"
-								   "\t<Actions> files : One or more paths to monkey action files.\n"
+const std::string TXT_COMMAND_HELP( "Usage: Chimp <Actions> [-v] [-o <Output>] [-r <Replay>]\n\n"
+								   "\t<Actions> files : One or more paths to chimp action files.\n"
 									"\t-v : Verbose action execution.\n"
 									"\t-o : Copy Output to file at <Output> file path.\n"
 									"\t-r : Generate Replay command file at <Replay> file path.\n"
